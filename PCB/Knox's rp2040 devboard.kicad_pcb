@@ -3187,7 +3187,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 2.385 2.665 180)
+			(at -0.065 -2.625 180)
 			(layer "F.SilkS")
 			(uuid "4254cfc6-d670-4ea1-9f2b-30a35559ab54")
 			(effects
@@ -50233,6 +50233,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "07c75ad2-2180-46b8-9254-5ea6abd41c21")
+	)
+	(gr_text "Knox's RP2040\nDev Board"
+		(at 185.22 103.78 0)
+		(layer "F.SilkS")
+		(uuid "3246b97d-be69-4e8e-a407-cc8b3ef3b48b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 187.7 83.78)
